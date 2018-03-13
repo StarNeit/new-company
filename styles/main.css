@@ -626,8 +626,52 @@ body{
     line-height: 21px;
     display: block;
     padding-top: 60px;
+    margin-bottom: 74px;
 }
 
+.new_company__main__reltech{
+    margin-top: 20px;
+    padding: 5px 20px 15px;
+    max-width: 801px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    min-height: 127px;
+
+    display: flex;
+    align-items: center;
+}
+
+.new_company__main__reltech > div{
+    flex: 1;
+    display: flex;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .new_company__main__reltech {
+        display: block;
+    }
+}
+
+.new_company__main__reltech__title{
+    font-family: 'ProximaNovaRegular';
+    color: #414042;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: left;
+
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.new_company__main__reltech__title > span{
+    display: block;
+    font-family:'ProximaNovaRegular';
+    color: #414042;
+    font-size: 12px;
+}
 
 /**
     Technology
