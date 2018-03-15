@@ -1005,6 +1005,7 @@ body{
     background: #fff;
     padding: 20px;
     position: relative;
+    overflow: hidden;
 }
 
 .new_company__customers_table > .header{
@@ -1017,6 +1018,7 @@ body{
     text-align: left;
     padding-left: 20px;
     font-family: 'ProximaNovaRegular';
+    min-width: 768px;
 }
 
 .new_company__customers_table .column__company{
@@ -1042,6 +1044,10 @@ body{
 
 .new_company__customers_table .column__domain{
     flex: 2;
+}
+
+.new_company__customers_table > .content{
+    min-width: 768px;
 }
 
 .new_company__customers_table > .content > div{
