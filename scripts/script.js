@@ -60,7 +60,7 @@ $(document).ready(function(){
      */
     $(".new_company__main__menu__item").on("click", function(){
         $(".new_company__main__menu__item").removeClass("active");
-       $(this).addClass("active");
+        $(this).addClass("active");
     });
 
     $("#cp_menu_about").on("click", function(){
@@ -78,6 +78,12 @@ $(document).ready(function(){
     $("#cp_menu_competitor").on("click", function(){
         $(".new_company__main_cont").hide();
         $(".new_company__main__competitor").show();
+    });
+
+
+    $(".new_company__main__customer__menu__item").on("click", function () {
+        $(".new_company__main__customer__menu__item").removeClass("active");
+        $(this).addClass("active");
     });
 });
 

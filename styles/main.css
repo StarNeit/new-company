@@ -844,7 +844,7 @@ body{
 
 .new_company__main__customer .new_company__main__top, .new_company__main__competitor .new_company__main__top{
     background: #F5F8FA;
-    padding-bottom: 700px;
+    padding: 30px 40px;
 }
 
 .new_company__main__customer__note{
@@ -872,6 +872,10 @@ body{
 
     display: flex;
     display: -webkit-flex;
+
+    border: 1px solid #E6EAEE;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
@@ -885,7 +889,6 @@ body{
     border-radius: 8px;
     padding: 40px 20px 20px;
     text-align: center;
-    margin-top: 20px;
     flex: 1;
 }
 
@@ -931,6 +934,148 @@ body{
         margin-right: 0;
     }
 }
+
+.new_company__main_cont__header{
+    background: #fff;
+    min-height: 103px;
+    width: 100%;
+    border-bottom: 1px solid #E6EAEE;
+    padding: 40px 30px 35px 60px;
+}
+
+.new_company__main__customer__lgtitle{
+    font-family: 'ProximaNovaRegular';
+    font-size: 24px;
+    color: #354052;
+    text-align: left;
+}
+
+.new_company__main__customer__lgtitle > span{
+    color: #7F8FA4;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.new_company__main__customer__menu{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    max-width: 300px;
+    width: 100%;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .new_company__main__customer__menu{
+        margin-top: 20px;
+        margin-right: auto;
+    }
+    .new_company__main__customer__lgtitle > span{
+        display: block;
+        padding-left: 0;
+    }
+    .new_company__main_cont__header{
+        padding-left: 20px;
+    }
+}
+
+.new_company__main__customer__menu__item{
+    font-family: 'ProximaNovaRegular';
+    color: #7F8FA4;
+    font-size: 12px;
+    text-align: center;
+    flex: 1;
+    padding-top: 4px;
+}
+
+.new_company__main__customer__menu__item.active{
+    color: #fff;
+    font-family: 'ProximaNovaSemibold';
+    font-size: 12px;
+    text-align: center;
+    background: #1991EB;
+    border-radius: 50px;
+    height: 30px;
+    padding-top: 8px;
+}
+
+.new_company__customers_table{
+    background: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.new_company__customers_table > .header{
+    background: #EFF3F6;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    color: #7F8FA4;
+    height: 28px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'ProximaNovaRegular';
+}
+
+.new_company__customers_table .column__company{
+    flex: 2;
+}
+
+.new_company__customers_table .column__company > img{
+    margin-right: 10px;
+}
+
+.new_company__customers_table .column__industry{
+    flex: 2;
+}
+
+.new_company__customers_table .column__traffic{
+    flex: 1.5;
+    text-align: center;
+}
+
+.new_company__customers_table .column__employee{
+    flex: 1.2;
+}
+
+.new_company__customers_table .column__domain{
+    flex: 2;
+}
+
+.new_company__customers_table > .content > div{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E6EAEE;
+}
+.new_company__customers_table > .content div {
+    font-family: 'ProximaNovaRegular';
+    color: #4A4A4A;
+    font-size: 14px;
+}
+.new_company__customers_table > .content .column__company{
+    font-family: 'ProximaNovaSemibold';
+}
+
+.new_company__customers_table > .content .column__traffic {
+    text-align: center;
+}
+
+.customers_table__gradient{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 200px);
+    background: rgba(245, 248, 250, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(245, 248, 250, 1));
+}
 /**
     Competitor
  */
@@ -939,6 +1084,20 @@ body{
     box-shadow: 0 30px 60px 0 rgba(0,0,0,.10);
 }
 
+.competitor_select{
+    border: 1px solid #CED0DA;
+    width: 174px;
+    height: 36px;
+    font-family: 'ProximaNovaSemibold';
+    color: #354052;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.new_company__customers_table.new_company__competitor_table > .content > div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 @media (max-width: 1300px) {
 
 }
